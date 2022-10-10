@@ -7,8 +7,8 @@ using namespace std;
 //********************
 void getinput(int &,int &);
 void getinput(float &,float &);
-void swapTwpValues(int &,int &);
-void swapTwpValues(float &,float &);
+void swapTwoValues(int &,int &);
+void swapTwoValues(float &,float &);
 
 int main()
 {
@@ -44,7 +44,7 @@ void swapTwoValues(int n1,int n2)
 	n1=n2;
 	n2=temp;
 }
-void swapTwpValues(float f1,float f2)
+void swapTwoValues(float f1,float f2)
 {
 	float temp;
 	temp=f1;
